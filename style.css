@@ -21,13 +21,8 @@ header > h1 {
     color: white;
 }
 
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around; /* Alinha os botões com espaços iguais */
-}
-
-.btnVideo {
+.btnVideo{
+    display: block;
     background-color: #0D6EFD;
     color: white;
     font-weight: lighter;
@@ -35,9 +30,6 @@ header > h1 {
     padding: 10px;
     border-radius: 5px;
     text-decoration: none;
-    margin: 10px;
-    flex: 1 1 200px; /* Os botões ocuparão pelo menos 200px e se ajustarão ao tamanho da tela */
-    max-width: 250px; /* Limita o tamanho máximo dos botões */
 }
 
 .btnVideo:hover {
